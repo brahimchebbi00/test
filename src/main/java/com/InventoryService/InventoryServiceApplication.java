@@ -60,7 +60,7 @@ public class InventoryServiceApplication {
 		return args ->{
 			RepositoryRestConfiguration.exposeIdsFor(Product.class);
 			ir.save(new Product("ddd",123) );
-			ir.save(new Product("bbb",333));
+			ir.save(new Product("ffff",333));
 			ir.save(new Product("ccc",444));
 		};
 	}
