@@ -62,6 +62,7 @@ public class InventoryServiceApplication {
 			ir.save(new Product("ddd",123) );
 			ir.save(new Product("ffff",333));
 			ir.save(new Product("ccc",444));
+			System.out.println("aaaaaaaaaaa chiheb aaa");
 		};
 	}
 }
